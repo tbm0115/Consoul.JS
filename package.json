@@ -1,0 +1,44 @@
+{
+    "name": "consoul.js",
+    "description": "Consoul.JS is a port of Consoul (for .NET Core), a Console styling library. Consoul.JS provides familiar methods for displaying a Console in the browser.",
+    "homepage": "https://consoul.dev",
+    "author":{
+        "name": "Trais McAllister",
+        "url": "https://traismcallister.me"
+    },
+    "contributors":[
+        {
+            "name": "Trais McAllister",
+            "url": "https://github.com/tbm0115"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/tbm0115/consoul.js.git"
+    },
+    "bugs":{
+        "url": "https://github.com/tbm0115/consoul.js/issues"
+    },
+    "keywords": [
+        "console",
+        "consoul",
+        "styling",
+        "pretty"
+    ],
+    "license": "LGPL-3.0-only",
+    "main": "dist/js/consoul.js",
+    "style": "dist/css/consoul.css",
+    "files":[
+        "src",
+        "dist"
+    ],
+    "version": "0.0.1",
+    "jspm":{
+        "main": "js/consoul",
+        "directories": {
+            "lib": "dist"
+        }
+    },
+    "devDependencies": {},
+    "dependencies": {}
+}
