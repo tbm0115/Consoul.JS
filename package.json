@@ -1,5 +1,5 @@
 {
-    "name": "consoul.js",
+    "name": "@tbm0115/consoul.js",
     "description": "Consoul.JS is a port of Consoul (for .NET Core), a Console styling library. Consoul.JS provides familiar methods for displaying a Console in the browser.",
     "homepage": "https://consoul.dev",
     "author":{
@@ -38,6 +38,9 @@
         "directories": {
             "lib": "dist"
         }
+    },
+    "publishConfig": { 
+        "registry": "https://npm.pkg.github.com/" 
     },
     "devDependencies": {},
     "dependencies": {}
